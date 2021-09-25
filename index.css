@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color:rgb(255, 121, 120);
+    background-blend-mode: multiply;
+    font-family: Poppins;
+}
+
+.main-container {
+    margin: 0 auto;
+    display:flex;
+    top:60px;
+    position: relative;
+    justify-content: center;
+}
+
+.containers {
+
+    width:700px;
+    height:600px;
+
+}
+
+#left {
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    text-align: center;;
+    flex-direction: column;
+
+}
+
+
+.h1-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height:110px;
+    position: relative;
+    top:220px;
+    width:450px;
+    margin: 0 auto;
+    font-size:18px;
+}
+
+.par-box {
+    padding:0px 90px 0px 180px;
+    margin:220px 0px 0px 15px;
+    text-align: left;
+}
+#par {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+#right {
+    display: flex;
+    flex-direction: column;
+}
+
+#try-it {
+    position: relative;
+    top:30px;   
+    margin: 0 auto;
+    width:650px;
+    height:60px;
+    border:none;
+    background-color: hsl(248, 32%, 49%);
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 2px 1px rgba(0,0,0, 0.25); 
+    box-shadow: 0px 4px 2px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+
+span {
+    font-weight: 400;
+}
+
+.form-container {
+    width:650px;
+    height:470px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin:60px 0px 0px 25px;
+    -webkit-box-shadow: 0px 4px 2px 1px rgba(0,0,0, 0.25); 
+    box-shadow: 0px 4px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    margin:30px 20px 10px 30px;
+    padding:10px 10px 10px 10px;
+    border-radius: 10px;
+    width:560px;
+    border:1px solid lightgrey;
+}
+
+.claim-it {
+    position: relative;
+    text-align: center;
+    top:20px;
+    display: block;
+    margin: 0 auto;
+    width:585px;
+    height:60px;
+    border:none;
+    background-color: hsl(154, 59%, 51%);
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 2px 1px #56b18a; 
+    box-shadow: 0px 4px 2px 1px #56b18a;
+    cursor: pointer;
+}
+
+#small-par {
+    position:relative;
+    top:30px;
+    font-size: 12px;
+    color:lightgrey;
+    text-align: center;
+    padding:0px 45px 0px 45px;
+    line-height: 1.6;
+
+
+}
+
+a {
+    color:red;
+    text-decoration: none;
+}
+
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    margin-top:80px;
+    color:#FFFFFF;
+}
+
+.footer-link {
+    color:#000000;
+    text-decoration: underline;
+}
+@media only screen and (max-width:500px){
+    body {background-image: url(./images/bg-intro-mobile.png);
+        height:160vh;
+    }
+    .main-container {
+        flex-direction: column;
+        margin: 0 auto;
+        padding:0px 40px 20px 40px;
+        height: 120vh;
+    }
+    .containers {
+        margin-top: 0 auto;
+    }
+    #left {
+        width:410px;
+        height:700px;
+        text-align: center;
+        font-size: 15px;
+        flex-direction: column;
+    }
+
+    .h1-box {
+        font-size: 15px;
+        width:300px;
+        position: relative;
+        top:50px;
+    }
+
+    #right{
+        width:410px;
+        height:1500px;
+    }
+    .par-box {
+        padding:10px 5px 0px 5px;
+        text-align: center;
+        margin-top:30px;
+    }
+
+#try-it{
+    margin:0px 20px 20px 20px;
+    
+    height:90px;
+    text-align: center;
+    top:40px;
+    width:360px;
+    margin: 0 auto;
+}
+.form-container {
+    width:360px;
+    height:600px;
+    background-color: #FFFFFF;
+    margin:60px 0px 0px 25px;
+    -webkit-box-shadow: 0px 4px 2px 1px rgba(0,0,0, 0.25); 
+    box-shadow: 0px 4px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    margin:30px 20px 10px 30px;
+    padding:20px 0px 20px 20px;
+    border-radius: 5px;
+    width:280px;
+    border:1px solid lightgrey;
+  
+    font-weight: 600;
+}
+
+.claim-it {position: relative;
+    top:10px;
+    width:301px;
+    margin:0px 30px 0px 30px;
+
+}
+
+footer {
+    margin-top:130px;
+}
+   
+    }
+
