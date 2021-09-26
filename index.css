@@ -1,3 +1,5 @@
+/* import google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
@@ -11,6 +13,8 @@ body {
     background-blend-mode: multiply;
     font-family: Poppins;
 }
+
+/* container styles */
 
 .main-container {
     margin: 0 auto;
@@ -141,78 +145,109 @@ a {
 }
 
 
+
+
+/* media queries for mobile screens*/
+
 @media only screen and (max-width:500px){
-    body {background-image: url(./images/bg-intro-mobile.png);
+
+    body {
+        
+        background-image: url(./images/bg-intro-mobile.png);
         height:160vh;
+    
     }
     .main-container {
+    
         flex-direction: column;
         margin: 0 auto;
         padding:0px 40px 20px 40px;
         height: 120vh;
+    
     }
+    
     .containers {
+    
         margin-top: 0 auto;
+    
     }
+    
     #left {
+    
         width:410px;
         height:700px;
         text-align: center;
         font-size: 15px;
         flex-direction: column;
+    
     }
 
     .h1-box {
+    
         font-size: 15px;
         width:300px;
         position: relative;
         top:50px;
+    
     }
 
     #right{
+    
         width:410px;
         height:1500px;
+    
     }
+    
     .par-box {
+    
         padding:10px 5px 0px 5px;
         text-align: center;
         margin-top:30px;
+    
     }
 
 #try-it{
-    margin:0px 20px 20px 20px;
     
+    margin:0px 20px 20px 20px;
     height:90px;
     text-align: center;
     top:40px;
     width:360px;
     margin: 0 auto;
+
 }
+
 .form-container {
+
     width:360px;
     height:600px;
     background-color: #FFFFFF;
     margin:60px 0px 0px 25px;
     -webkit-box-shadow: 0px 4px 2px 1px rgba(0,0,0, 0.25); 
     box-shadow: 0px 4px 2px 1px rgba(0, 0, 0, 0.25);
+
 }
 
 input {
+
     margin:30px 20px 10px 30px;
     padding:20px 0px 20px 20px;
     border-radius: 5px;
     width:280px;
     border:1px solid lightgrey;
-  
     font-weight: 600;
+
 }
 
-.claim-it {position: relative;
+.claim-it {
+
+    position: relative;
     top:10px;
     width:301px;
     margin:0px 30px 0px 30px;
 
 }
 
+   
     }
 
