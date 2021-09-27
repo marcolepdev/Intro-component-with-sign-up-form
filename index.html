@@ -26,9 +26,9 @@
       <button id="try-it">Try it free for 7 days <span>then $20/mo. thereafter</span></button>
   <div class="form-container">
       <form action="/action_page.php" name="validation-form">
-          <input class="input-fields" name="first-name" type="text" placeholder="First Name" pattern="^[a-zA-Z]+" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required>
-          <input class="input-fields" name="last-name" type="text" placeholder="Last Name" pattern="^[a-zA-Z]+" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required>
-          <input class="input-fields" name="email" type="email" placeholder="Email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
+          <input class="input-fields" name="first-name" type="text" placeholder="First Name" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required>
+          <input class="input-fields" name="last-name" type="text" placeholder="Last Name" pattern="[a-zA-Z]+" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required>
+          <input class="input-fields" name="email" type="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
           <input class="input-fields" name="password" placeholder="Password" required>
           <button id="send-form" class="claim-it" value="send" type="submit" >CLAIM YOUR FREE TRIAL</button>
           <p id="small-par">By clicking the button, you are agreeing to our <span><a href="">Terms and Conditions</a></span></p>
